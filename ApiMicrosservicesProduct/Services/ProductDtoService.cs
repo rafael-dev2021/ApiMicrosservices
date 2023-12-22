@@ -11,19 +11,17 @@ public class ProductDtoService(IMapper mapper, IProductRepository productReposit
     private readonly IMapper _mapper = mapper;
     private readonly IProductRepository _productRepository = productRepository;
 
-
     public async Task<IEnumerable<ProductDto>> GetItemsDtoAsync()
     {
         var getProducts = await _productRepository.GetItemsAsync();
-        if (getProducts?.Any() != true)
-            throw new RequestException(new RequestError
-            {
-                Message = "No products found.",
-                Severity = "Not found",
-                StatusCode = System.Net.HttpStatusCode.NotFound
-            });
+
+        if (getProducts == null || !getProducts.Any())
+        {
+            return Enumerable.Empty<ProductDto>();
+        }
         return _mapper.Map<IEnumerable<ProductDto>>(getProducts);
     }
+
     public async Task<ProductDto> GetByIdAsync(int? id)
     {
         if (id <= 0 || id == null)
