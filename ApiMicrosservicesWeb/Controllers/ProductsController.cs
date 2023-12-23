@@ -69,12 +69,9 @@ namespace ApiMicrosservicesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _productService.UpdateProductAsync(productVM);
+                await _productService.UpdateProductAsync(productVM);
 
-                if (result is not null)
-                {
-                    return RedirectToAction("Index");
-                }
+                return RedirectToAction("Index");
             }
             return View(productVM);
         }

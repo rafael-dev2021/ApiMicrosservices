@@ -28,3 +28,4 @@ C:\C#\ApiMicrosservices\ApiMicrosservicesWeb\obj\Debug\net8.0\refint\ApiMicrosse
 C:\C#\ApiMicrosservices\ApiMicrosservicesWeb\obj\Debug\net8.0\ApiMicrosservicesWeb.pdb
 C:\C#\ApiMicrosservices\ApiMicrosservicesWeb\obj\Debug\net8.0\ApiMicrosservicesWeb.genruntimeconfig.cache
 C:\C#\ApiMicrosservices\ApiMicrosservicesWeb\obj\Debug\net8.0\ref\ApiMicrosservicesWeb.dll
+C:\C#\ApiMicrosservices\ApiMicrosservicesWeb\obj\Debug\net8.0\ApiMicrosservicesWeb.sourcelink.json

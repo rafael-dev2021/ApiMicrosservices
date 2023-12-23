@@ -29,15 +29,17 @@ public class ProductService : IProductService
             if (response.IsSuccessStatusCode)
             {
                 var apiResponse = await response.Content.ReadAsStreamAsync();
-                productsViewModels = await JsonSerializer.DeserializeAsync<IEnumerable<ProductViewModel>>(apiResponse, _options);
+                var productsViewModels = await JsonSerializer.DeserializeAsync<IEnumerable<ProductViewModel>>(apiResponse, _options);
+
+                return productsViewModels ?? Enumerable.Empty<ProductViewModel>();
             }
             else
             {
-                return null;
+                return Enumerable.Empty<ProductViewModel>();
             }
         }
-        return productsViewModels;
     }
+
 
     public async Task<ProductViewModel> GetByProductIdAsync(int? id)
     {
