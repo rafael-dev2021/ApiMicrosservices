@@ -1,8 +1,11 @@
 ﻿using ApiMicrosservicesProduct.DTOs;
 using ApiMicrosservicesProduct.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiMicrosservicesProduct.EndPoints;
+
+[Authorize]
 public static class ProductServiceEndPoint
 {
     public static void MapProductServiceEndpoints(this WebApplication app)
@@ -20,14 +23,14 @@ public static class ProductServiceEndPoint
             return product;
         });
 
-        app.MapPost("/api/products", async ([FromServices] IProductDtoService service, [FromBody] ProductDto productDto) =>
+        app.MapPost("/api/products", [Authorize(Roles = "Admin")] async ([FromServices] IProductDtoService service, [FromBody] ProductDto productDto) =>
         {
             await service.AddAsync(productDto);
             return TypedResults.Created($"/api/products/{productDto.Id}", productDto);
         });
 
 
-        app.MapPut("/api/products/{id}", async ([FromServices] IProductDtoService service, int? id, [FromBody] ProductDto updateProductDto) =>
+        app.MapPut("/api/products/{id}", [Authorize(Roles = "Admin")] async ([FromServices] IProductDtoService service, int? id, [FromBody] ProductDto updateProductDto) =>
         {
             if (id != updateProductDto.Id) TypedResults.BadRequest();
 
@@ -39,7 +42,7 @@ public static class ProductServiceEndPoint
         });
 
 
-        app.MapDelete("/api/products/{id}", async ([FromServices] IProductDtoService service, int? id) =>
+        app.MapDelete("/api/products/{id}", [Authorize(Roles = "Admin")] async ([FromServices] IProductDtoService service, int? id) =>
         {
             if (id == null) TypedResults.NotFound();
 

@@ -1,0 +1,115 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Account\AccessDenied.cshtml" />
+    <None Include="Views\Account\LoggedOut.cshtml" />
+    <None Include="Views\Account\Login.cshtml" />
+    <None Include="Views\Account\Logout.cshtml" />
+    <None Include="Views\Consent\Index.cshtml" />
+    <None Include="Views\Device\Success.cshtml" />
+    <None Include="Views\Device\UserCodeCapture.cshtml" />
+    <None Include="Views\Device\UserCodeConfirmation.cshtml" />
+    <None Include="Views\Diagnostics\Index.cshtml" />
+    <None Include="Views\Grants\Index.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\Redirect.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_Nav.cshtml" />
+    <None Include="Views\Shared\_ScopeListItem.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\Shared\_ValidationSummary.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+    <None Include="wwwroot\css\Account\AccessDenied.cshtml" />
+    <None Include="wwwroot\css\Account\LoggedOut.cshtml" />
+    <None Include="wwwroot\css\Account\Login.cshtml" />
+    <None Include="wwwroot\css\Account\Logout.cshtml" />
+    <None Include="wwwroot\css\Consent\Index.cshtml" />
+    <None Include="wwwroot\css\Device\Success.cshtml" />
+    <None Include="wwwroot\css\Device\UserCodeCapture.cshtml" />
+    <None Include="wwwroot\css\Device\UserCodeConfirmation.cshtml" />
+    <None Include="wwwroot\css\Diagnostics\Index.cshtml" />
+    <None Include="wwwroot\css\Grants\Index.cshtml" />
+    <None Include="wwwroot\css\Home\Index.cshtml" />
+    <None Include="wwwroot\css\Shared\Error.cshtml" />
+    <None Include="wwwroot\css\Shared\Redirect.cshtml" />
+    <None Include="wwwroot\css\Shared\_Layout.cshtml" />
+    <None Include="wwwroot\css\Shared\_Nav.cshtml" />
+    <None Include="wwwroot\css\Shared\_ScopeListItem.cshtml" />
+    <None Include="wwwroot\css\Shared\_ValidationSummary.cshtml" />
+    <None Include="wwwroot\css\site.scss" />
+    <None Include="wwwroot\css\_ViewImports.cshtml" />
+    <None Include="wwwroot\css\_ViewStart.cshtml" />
+    <None Include="wwwroot\duende-logo.svg" />
+    <None Include="wwwroot\js\signin-redirect.js" />
+    <None Include="wwwroot\js\signout-redirect.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap4-glyphicons\fonts\glyphicons\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap4-glyphicons\fonts\glyphicons\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap4-glyphicons\LICENSE" />
+    <None Include="wwwroot\lib\bootstrap4-glyphicons\maps\glyphicons-fontawesome.less" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\bootstrap\README.md" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.slim.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.slim.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.slim.min.map" />
+    <None Include="wwwroot\lib\jquery\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.3.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

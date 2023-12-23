@@ -26,9 +26,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark  px-3" asp-area="" asp-controller="Home" asp-action="Index">
-                                Sign Up for Email
-                            </a>
+                            <partial name="_LoginPartial" class="nav-link text-dark  px-3" />
                         </li>
                         <li class="nav-item mb-3">
                             <a class="nav-link text-dark  px-3" asp-area="" asp-controller="Home" asp-action="Privacy">Careers</a>
@@ -38,6 +36,12 @@
                                 <input class="form-control bar" type="search" placeholder="Search for products" aria-label="Search" name="search" value="@ViewData["search"]">
                             </form>
                         </li>
+                         @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Management</a>
+                            </li>
+                        }
                         <li style="padding-left:7%"></li>
                         <li class="nav-item mb-3">
                             <a class="nav-link text-primary px-3" data-bs-toggle="modal" data-bs-target="#exampleModal"
@@ -90,7 +94,7 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content border-0" style="border-radius:10px">
-                    <div class="modal-body p-5" >
+                    <div class="modal-body p-5">
                         <div class="position-absolute top-0 end-0 me-3 mt-3">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>

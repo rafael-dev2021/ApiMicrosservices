@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApiMicrosservicesIdentityServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ApiMicrosservicesIdentityServer.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\css\\site.scss",
+      "PackagePath": "staticwebassets\\css\\site.scss"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\duende-logo.svg",
+      "PackagePath": "staticwebassets\\duende-logo.svg"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\js\\signin-redirect.js",
+      "PackagePath": "staticwebassets\\js\\signin-redirect.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\js\\signout-redirect.js",
+      "PackagePath": "staticwebassets\\js\\signout-redirect.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.less"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\README.md"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery\\README.md"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesIdentityServer\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiMicrosservicesIdentityServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ApiMicrosservicesIdentityServer.props",
+      "PackagePath": "build\\ApiMicrosservicesIdentityServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ApiMicrosservicesIdentityServer.props",
+      "PackagePath": "buildMultiTargeting\\ApiMicrosservicesIdentityServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ApiMicrosservicesIdentityServer.props",
+      "PackagePath": "buildTransitive\\ApiMicrosservicesIdentityServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

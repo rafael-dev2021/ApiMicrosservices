@@ -1,5 +1,6 @@
 ﻿using ApiMicrosservicesProduct.DTOs;
 using ApiMicrosservicesProduct.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiMicrosservicesProduct.EndPoints;
@@ -20,14 +21,14 @@ public static class CategoryServiceEndPoint
             return category;
         });
 
-        app.MapPost("/api/categories", async ([FromServices] ICategoryDtoService service, [FromBody] CategoryDto categoryDto) =>
+        app.MapPost("/api/categories", [Authorize(Roles = "Admin")] async ([FromServices] ICategoryDtoService service, [FromBody] CategoryDto categoryDto) =>
         {
             await service.AddAsync(categoryDto);
             return TypedResults.Created($"/api/categories/{categoryDto.Id}", categoryDto);
         });
 
 
-        app.MapPut("/api/categories/{id}", async ([FromServices] ICategoryDtoService service, int? id, [FromBody] CategoryDto updateCategoryDto) =>
+        app.MapPut("/api/categories/{id}", [Authorize(Roles = "Admin")] async ([FromServices] ICategoryDtoService service, int? id, [FromBody] CategoryDto updateCategoryDto) =>
         {
             if (id != updateCategoryDto.Id) TypedResults.BadRequest();
 
@@ -38,7 +39,7 @@ public static class CategoryServiceEndPoint
             return TypedResults.Ok();
         });
 
-        app.MapDelete("/api/categories/{id}", async (int? id, [FromServices] ICategoryDtoService service) =>
+        app.MapDelete("/api/categories/{id}", [Authorize(Roles = "Admin")] async (int? id, [FromServices] ICategoryDtoService service) =>
         {
             if (id == null) return Results.NotFound();
 

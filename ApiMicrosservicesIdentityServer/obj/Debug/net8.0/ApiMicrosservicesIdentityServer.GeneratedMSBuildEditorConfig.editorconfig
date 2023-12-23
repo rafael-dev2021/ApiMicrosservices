@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ApiMicrosservicesIdentityServer
+build_property.RootNamespace = ApiMicrosservicesIdentityServer
+build_property.ProjectDir = C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Account/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcQWNjb3VudFxMb2dnZWRPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcQ29uc2VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcRGV2aWNlXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Device/UserCodeCapture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcRGV2aWNlXFVzZXJDb2RlQ2FwdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Device/UserCodeConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcRGV2aWNlXFVzZXJDb2RlQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcRGlhZ25vc3RpY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcR3JhbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Shared/Redirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcU2hhcmVkXFJlZGlyZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Shared/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcU2hhcmVkXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/Shared/_ValidationSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcU2hhcmVkXF9WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/wwwroot/css/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Account/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dnZWRPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc2VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Device/UserCodeCapture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVzZXJDb2RlQ2FwdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Device/UserCodeConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVzZXJDb2RlQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Shared/Redirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZGlyZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Shared/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Shared/_ValidationSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ApiMicrosservices/ApiMicrosservicesIdentityServer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w59kdovw11

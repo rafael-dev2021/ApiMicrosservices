@@ -3,5 +3,5 @@
 namespace ApiMicrosservicesWeb.Services.MicrosservicesProduct.Interfaces;
 public interface ICategoryService
 {
-    Task<IEnumerable<CategoryViewModel>> GetAllCategories();
+    Task<IEnumerable<CategoryViewModel>> GetAllCategories(string token);
 }
