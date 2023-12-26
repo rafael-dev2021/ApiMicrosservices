@@ -1,0 +1,30 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Pesquisar Endereço por CEP</h1>
+
+@using (Html.BeginForm("GetByCep", "Address", FormMethod.Get))
+{
+    <div class="form-group">
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+
+    <br />
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="error-message text-danger">
+            @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+        </div>
+    }
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

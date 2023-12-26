@@ -1,0 +1,42 @@
+﻿@using ApiMicrosservicesWeb.Models.MicrosservicesAdress
+@model AddressDtoViewModel
+
+@{
+    ViewData["Title"] = "Detalhes do Endereço";
+}
+
+<h1>Detalhes do Endereço</h1>
+
+@if (Model != null)
+{
+    <dl>
+        <dt>CEP:</dt>
+        <dd>@Model.Cep</dd>
+
+        <dt>Logradouro:</dt>
+        <dd>@Model.Logradouro</dd>
+
+        <dt>Complemento:</dt>
+        <dd>@Model.Complemento</dd>
+
+        <dt>Bairro:</dt>
+        <dd>@Model.Bairro</dd>
+
+        <dt>Localidade:</dt>
+        <dd>@Model.Localidade</dd>
+
+        <dt>Uf:</dt>
+        <dd>@Model.Uf</dd>
+
+
+        <!-- Adicione outras propriedades conforme necessário -->
+    </dl>
+
+    <a asp-action="Index" class="btn btn-primary btn-lg">
+        <span>Back</span>
+    </a>
+}
+else
+{
+    <p>Endereço não encontrado para o CEP informado.</p>
+}
