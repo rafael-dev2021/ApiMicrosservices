@@ -1,36 +1,88 @@
 ﻿@using ApiMicrosservicesWeb.Models.MicrosservicesAdress
 @model AddressDtoViewModel
 
-@{
-    ViewData["Title"] = "Detalhes do Endereço";
-}
+<h2 class="text-center mt-3">Detalhes do Endereço</h2>
+<style>
+    .address_form {
+        max-width: 400px;
+        margin-top: 5%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-<h1>Detalhes do Endereço</h1>
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .address_form_label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .address_form_input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .address_form_button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .address_form_button:hover {
+            background-color: #0056b3;
+        }
+
+    .text-danger {
+        color: #dc3545;
+    }
+</style>
 
 @if (Model != null)
 {
-    <dl>
-        <dt>CEP:</dt>
-        <dd>@Model.Cep</dd>
+    <div class="form-group">
+        <label class="address_form_label" for="cep">Zip code</label>
+        <input class="address_form_input form-control" asp-for="Cep" />
+    </div>
 
-        <dt>Logradouro:</dt>
-        <dd>@Model.Logradouro</dd>
-
-        <dt>Complemento:</dt>
-        <dd>@Model.Complemento</dd>
-
-        <dt>Bairro:</dt>
-        <dd>@Model.Bairro</dd>
-
-        <dt>Localidade:</dt>
-        <dd>@Model.Localidade</dd>
-
-        <dt>Uf:</dt>
-        <dd>@Model.Uf</dd>
-
-
-        <!-- Adicione outras propriedades conforme necessário -->
-    </dl>
+    <div class="row">
+        <div class="form-group col-lg-6">
+            <label class="address_form_label" for="cep">City</label>
+            <input class="address_form_input form-control" asp-for="Localidade" />
+        </div>
+        <div class="form-group col-lg-6">
+            <label class="address_form_label" for="cep">State</label>
+            <input class="address_form_input form-control" asp-for="Uf" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="address_form_label" for="cep">Neighborhood</label>
+        <input class="address_form_input form-control" asp-for="Bairro" />
+    </div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label class="address_form_label" for="cep">Street</label>
+            <input class="address_form_input form-control" asp-for="Logradouro" />
+        </div>
+        <div class="form-group col-md-6">
+            <label class="address_form_label" for="cep">Number</label>
+            <input class="address_form_input form-control" asp-for="Numero" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="address_form_label" for="cep">Complement</label>
+        <input class="address_form_input form-control" asp-for="Complemento" />
+    </div>
 
     <a asp-action="Index" class="btn btn-primary btn-lg">
         <span>Back</span>
@@ -38,5 +90,12 @@
 }
 else
 {
-    <p>Endereço não encontrado para o CEP informado.</p>
+    <p>Address not found for the zip code.</p>
+}
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

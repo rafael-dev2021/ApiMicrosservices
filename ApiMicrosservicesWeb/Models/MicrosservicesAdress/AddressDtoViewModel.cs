@@ -46,4 +46,7 @@ public partial record AddressDtoViewModel
 
     [JsonPropertyName("siafi")]
     public string Siafi { get; set; } = string.Empty;
+
+    [JsonPropertyName("Numero")]
+    public string Numero { get; set; } = string.Empty;
 }

@@ -33,3 +33,10 @@ body {
         .container_style_footer_layout a:hover {
             color: rgba(186, 197, 208, 1);
         }
+
+.nav-center-layout {
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+    padding: 0;
+}

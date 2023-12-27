@@ -1,27 +1,66 @@
-﻿@model string
+﻿@using ApiMicrosservicesWeb.Models.MicrosservicesAdress
+@model AddressDtoViewModel
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Pesquisar Endereço por CEP</h1>
-
-@using (Html.BeginForm("GetByCep", "Address", FormMethod.Get))
-{
-    <div class="form-group">
-        <label for="cep">CEP:</label>
-        <input type="text" id="cep" name="cep" class="form-control" />
-    </div>
-    <button type="submit" class="btn btn-primary">Buscar</button>
-
-    <br />
-    @if (!ViewData.ModelState.IsValid)
-    {
-        <div class="error-message text-danger">
-            @Html.ValidationSummary(false, "", new { @class = "text-danger" })
-        </div>
+<style>
+    .address_form {
+        max-width: 400px;
+        margin-top:5%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-}
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .address_form_label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .address_form_input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .address_form_button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .address_form_button:hover {
+            background-color: #0056b3;
+        }
+
+    .text-danger {
+        color: #dc3545;
+    }
+</style>
+
+<form class="address_form mx-auto" asp-controller="Address" asp-action="GetByCep" method="get">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label class="address_form_label" for="cep">Zip code</label>
+        <input class="address_form_input form-control" type="text" id="cep" name="cep" />
+    </div>
+    <div class="form-group">
+        <button onclick="address_form_button" type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
 
 @section Scripts {
     @{

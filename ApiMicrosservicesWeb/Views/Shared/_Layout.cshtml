@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light ">
             <div style="padding-left:10%"></div>
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
@@ -26,7 +26,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <partial name="_LoginPartial" class="nav-link text-dark  px-3" />
+                            <partial name="_LoginPartial" class="nav-link text-dark" />
                         </li>
                         <li class="nav-item mb-3">
                             <a class="nav-link text-dark  px-3" asp-area="" asp-controller="Home" asp-action="Privacy">Careers</a>
@@ -36,19 +36,19 @@
                                 <input class="form-control bar" type="search" placeholder="Search for products" aria-label="Search" name="search" value="@ViewData["search"]">
                             </form>
                         </li>
-                         @if (User.IsInRole("Admin"))
+                        @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Management</a>
                             </li>
                         }
-                        <li style="padding-left:7%"></li>
-                        <li class="nav-item mb-3">
-                            <a class="nav-link text-primary px-3" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                               asp-area="" asp-controller="Home" asp-action="Privacy">
-                                <i class="bi bi-geo-alt-fill text-danger"></i> Change your Location
-                            </a>
-                        </li>
+                        <li style="padding-left:3%"></li>
+                       
+                            <li class="nav-item mb-3">
+                                <a href="#" class="nav-link text-primary px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="bi bi-geo-alt-fill text-danger"></i> Change your Location
+                                </a>
+                            </li>
                         <li class="nav-item">
                             <a class="nav-link px-3 btn btn-warning btn-lg size_text_button_layout" asp-area="" asp-controller="Home" asp-action="Privacy">Order Now</a>
                         </li>
@@ -57,16 +57,15 @@
             </div>
 
         </nav>
-        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-white border-bottom box-shadow mb-3" style="margin-top:-3%">
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light border-bottom" style="margin-top:-3%">
             <div class="container-fluid">
                 <div class="navbar-collapse collapse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li style="padding-left:15%"></li>
+                    <ul class="navbar-nav flex-grow-1 nav-center-layout">
                         <li class="nav-item px-3">
                             @* @await Component.InvokeAsync("CategoryMenu") *@
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark  px-3" asp-area="" asp-controller="Products" asp-action="Index">Products</a>
+                            <a class="nav-link text-dark  px-3" asp-area="" asp-controller="Products" asp-action="Index">Our Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark  px-3" asp-area="" asp-controller="Home" asp-action="Privacy">Download App</a>
