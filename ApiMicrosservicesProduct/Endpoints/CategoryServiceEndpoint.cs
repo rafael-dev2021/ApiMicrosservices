@@ -1,14 +1,18 @@
 ﻿using ApiMicrosservicesProduct.Dtos;
 using ApiMicrosservicesProduct.Services.Interfaces;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 
 namespace ApiMicrosservicesProduct.Endpoints
 {
     public static class CategoryServiceEndpoint
     {
-        private static async Task<T> GetCachedData<T>(IDistributedCache cache, string key)
+        private static async Task<T> GetCachedData<T>(
+            IDistributedCache cache, 
+            string key)
         {
             var cachedData = await cache.GetStringAsync(key);
             if (!string.IsNullOrEmpty(cachedData))
@@ -17,7 +21,10 @@ namespace ApiMicrosservicesProduct.Endpoints
             return default;
         }
 
-        private static async Task SetCachedData<T>(IDistributedCache cache, string key, T data)
+        private static async Task SetCachedData<T>(
+            IDistributedCache cache,
+            string key, 
+            T data)
         {
             var serializedData = JsonConvert.SerializeObject(data);
             await cache.SetStringAsync(key, serializedData,
@@ -28,7 +35,9 @@ namespace ApiMicrosservicesProduct.Endpoints
         }
         public static void MapCategoryServiceEndpoint(this WebApplication app)
         {
-            app.MapGet("/api/v1/categories", async ([FromServices] ICategoryDtoService service, IDistributedCache cache) =>
+            app.MapGet("/api/v1/categories", async (
+                [FromServices] ICategoryDtoService service,
+                IDistributedCache cache) =>
             {
                 var cachedCategories = await GetCachedData<List<CategoryDto>>(cache, "cached_categories");
                 if (cachedCategories != null) return Results.Ok(cachedCategories);
@@ -41,7 +50,10 @@ namespace ApiMicrosservicesProduct.Endpoints
             });
 
 
-            app.MapGet("/api/v1/categories/{id}", async ([FromServices] ICategoryDtoService service, IDistributedCache cache, int? id) =>
+            app.MapGet("/api/v1/categories/{id}", async (
+                [FromServices] ICategoryDtoService service,
+                IDistributedCache cache,
+                int? id) =>
             {
                 var cachedCategory = await GetCachedData<CategoryDto>(cache, $"cached_category_{id}");
                 if (cachedCategory != null) return Results.Ok(cachedCategory);
@@ -53,9 +65,17 @@ namespace ApiMicrosservicesProduct.Endpoints
                 return Results.Ok(category);
             });
 
-            app.MapPost("/api/v1/categories", async ([FromServices] ICategoryDtoService service, IDistributedCache cache,
-                [FromBody] CategoryDto categoryDto) =>
+            app.MapPost("/api/v1/categories", async (
+                [FromServices] ICategoryDtoService service, 
+                IDistributedCache cache,
+                [FromBody] CategoryDto categoryDto,
+                [FromServices]IValidator<CategoryDto> validator) =>
             {
+
+                var validationResult = await validator.ValidateAsync(categoryDto);
+                var errors = validationResult.Errors.Select(e => e.ErrorMessage);
+
+                if (!validationResult.IsValid) return Results.BadRequest(errors);
                 try
                 {
                     await service.AddAsync(categoryDto);
@@ -68,10 +88,19 @@ namespace ApiMicrosservicesProduct.Endpoints
                 }
             });
 
-            app.MapPut("/api/v1/categories{id}", async (int? id, [FromServices] ICategoryDtoService service, IDistributedCache cache,
-                [FromBody] CategoryDto categoryDto) =>
+            app.MapPut("/api/v1/categories{id}", async (
+                int? id,
+                [FromServices] ICategoryDtoService service, 
+                IDistributedCache cache,
+                [FromBody] CategoryDto categoryDto,
+                [FromServices] IValidator<CategoryDto> validator) =>
             {
                 if (id == null) return Results.BadRequest("Invalid category data.");
+                var validationResult = await validator.ValidateAsync(categoryDto);
+                var errors = validationResult.Errors.Select(e => e.ErrorMessage);
+
+                if (!validationResult.IsValid) return Results.BadRequest(errors);
+
                 try
                 {
                     await service.UpdateAsync(categoryDto);
@@ -85,7 +114,10 @@ namespace ApiMicrosservicesProduct.Endpoints
                 }
             });
 
-            app.MapDelete("/api/v1/categories/{id}", async (ICategoryDtoService service, IDistributedCache cache, int? id) =>
+            app.MapDelete("/api/v1/categories/{id}", async (
+                ICategoryDtoService service,
+                IDistributedCache cache,
+                int? id) =>
             {
                 if (id == null) return Results.NotFound($"Category with {id} not found.");
                 var category = await service.GetByIdAsync(id);

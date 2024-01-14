@@ -145,3 +145,7 @@ D:\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\refint\ApiMicross
 D:\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.pdb
 D:\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.genruntimeconfig.cache
 D:\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ref\ApiMicrosservicesProduct.dll
+D:\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\FluentValidation.dll
+D:\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.sourcelink.json

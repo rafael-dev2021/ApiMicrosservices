@@ -1,8 +1,10 @@
 ﻿using ApiMicrosservicesProduct.Dtos;
 using ApiMicrosservicesProduct.Services.Interfaces;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 
 namespace ApiMicrosservicesProduct.Endpoints;
 
@@ -102,9 +104,15 @@ public static class ProductServiceEndpoint
         app.MapPost("/api/v1/products", async (
            [FromServices] IProductDtoService service,
             IDistributedCache cache,
-            [FromBody] ProductDto productDto) =>
+            [FromBody] ProductDto productDto,
+            [FromServices]IValidator<ProductDto> validator) =>
         {
             if (productDto == null) return Results.BadRequest("Invalid product data.");
+
+            var validationResult = await validator.ValidateAsync(productDto);
+            var errors = validationResult.Errors.Select(e => e.ErrorMessage);
+
+            if (!validationResult.IsValid) return Results.BadRequest(errors);
             try
             {
                 await service.AddAsync(productDto);
@@ -122,10 +130,16 @@ public static class ProductServiceEndpoint
            [FromServices] IProductDtoService service,
             IDistributedCache cache,
             int? id,
-            [FromBody] ProductDto productDto) =>
+            [FromBody] ProductDto productDto,
+            [FromServices] IValidator<ProductDto> validator) =>
         {
             if (id != productDto?.Id) return Results.BadRequest("Id mismatch between URL and product data.");
             if (productDto == null) return Results.BadRequest("Invalid product data.");
+
+            var validationResult = await validator.ValidateAsync(productDto);
+            var errors = validationResult.Errors.Select(e => e.ErrorMessage);
+
+            if (!validationResult.IsValid) return Results.BadRequest(errors);
             try
             {
                 await service.UpdateAsync(productDto);

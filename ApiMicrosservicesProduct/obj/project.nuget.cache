@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f3YrAFKhtZ2rq5lzvbq7n6SDTepwGz9LrafF/GNhWSms2Ws14GGoDZODEWh/Ebr+HxJeTfvAw9hnT57A1+8CjQ==",
+  "dgSpecHash": "lK/ayZTkDN+WodzV9b65qzxQd4cVh+tbu7xii+DOXrEDcQ6BYC6NPsc8Qs1CgT77gY/RRZyARDboqlRO+iewtw==",
   "success": true,
   "projectFilePath": "D:\\ApiMicrosservices\\ApiMicrosservicesProduct\\ApiMicrosservicesProduct.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\ainbo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\ainbo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ainbo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\ainbo\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\ainbo\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\ainbo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\ainbo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ainbo\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.1\\microsoft.aspnetcore.jsonpatch.8.0.1.nupkg.sha512",
     "C:\\Users\\ainbo\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.1.nupkg.sha512",
