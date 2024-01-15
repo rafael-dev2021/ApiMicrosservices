@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiMicrosservicesTestProjects")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+469b32996482cd193f3e9daa277075740d7babe6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75bfb5ca55f1117da2de3c5fd549039fc6607e82")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiMicrosservicesTestProjects")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiMicrosservicesTestProjects")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

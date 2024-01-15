@@ -2,7 +2,7 @@
 
 public class Product
 {
-    public int Id { get; protected set; }
+    public int Id { get; set; }
     public string Name { get; protected set; } = string.Empty;
     public string Description { get; protected set; } = string.Empty;
     public int Stock { get; protected set; }
@@ -22,5 +22,20 @@ public class Product
         Price = price;
         Images = images;
         CategoryId = categoryId;
+    }
+
+    public void UpdateProductUnitTest(string name, List<string> images, string description, decimal price, int stock, int categoryId)
+    {
+        Name = name;
+        Description = description;
+        Stock = stock;
+        Price = price;
+        Images = images;
+        CategoryId = categoryId;
+    }
+
+    public void UpdateNameUnitTest(string newName)
+    {
+        Name = newName;
     }
 }
