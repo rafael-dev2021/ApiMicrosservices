@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ProductViewModel>
+
+<div>
+    <h2>Products</h2>
+</div>
+
+<div class="row">
+    <div class="pull-left">
+        <a asp-action="Create" class="btn btn-primary">
+            New Product
+        </a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <h2>@item.Id</h2>
+                <h5>@item.Name</h5>
+                <img src="@item.Images[0]" alt="@item.Name" class="img-fluid w-75" />
+                <p>@item.Description</p>
+                <h6>@item.CategoryName</h6>
+                <h6>@item.Price.ToString("C2")</h6>
+                <p><b>Stock</b> @item.Stock</p>
+            </div>
+
+        }
+    </div>
+</div>

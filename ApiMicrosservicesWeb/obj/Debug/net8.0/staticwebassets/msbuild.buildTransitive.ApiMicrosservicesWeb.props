@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ApiMicrosservicesWeb.props" />
+</Project>
