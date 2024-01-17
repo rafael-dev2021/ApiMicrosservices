@@ -1,4 +1,0 @@
-# Arquivos a serem ignorados pelo Git
-.vs/
-ApiMicrosservicesProduct/obj/
-ApiMicrosservicesTestProjects/obj/
