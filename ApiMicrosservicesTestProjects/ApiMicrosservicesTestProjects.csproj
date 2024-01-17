@@ -28,4 +28,8 @@
     <ProjectReference Include="..\ApiMicrosservicesProduct\ApiMicrosservicesProduct.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="IntegrationTests\NovaPasta\" />
+  </ItemGroup>
+
 </Project>
