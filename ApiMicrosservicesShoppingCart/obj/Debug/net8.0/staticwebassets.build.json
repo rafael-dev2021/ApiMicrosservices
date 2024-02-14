@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nKVMATars1HeT83MjVor3d4LFTgyOdGFbWSADVrnc3g=",
+  "Source": "ApiMicrosservicesShoppingCart",
+  "BasePath": "_content/ApiMicrosservicesShoppingCart",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

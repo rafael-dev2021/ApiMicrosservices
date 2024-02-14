@@ -2,6 +2,9 @@
 using ApiMicrosservicesWeb.Services.MicrosservicesAdress.Interfaces;
 using ApiMicrosservicesWeb.Services.MicrosservicesProduct;
 using ApiMicrosservicesWeb.Services.MicrosservicesProduct.Interfaces;
+using ApiMicrosservicesWeb.Services.MicrosservicesShoppingCart.Interfaces;
+using ApiMicrosservicesWeb.Services.MicrosservicesShoppingCart;
+using ApiMicrosservicesWeb.Models;
 
 namespace ApiMicrosservicesWeb.Extends;
 
@@ -24,9 +27,19 @@ public static class AddHttpClientDependecyInjection
             c.DefaultRequestHeaders.Add("Keep-Alive", "3600");
             c.DefaultRequestHeaders.Add("User-Agent", "HttpClientFactory-ProductApi");
         });
+
+        services.AddHttpClient<ICartService, CartService>("CartApi",
+         c => c.BaseAddress = new Uri(configuration["ServiceUri:CartApi"]));
+
+        services.AddHttpClient<ICouponService, CouponService>("DiscountApi", c =>
+        c.BaseAddress = new Uri(configuration["ServiceUri:DiscountApi"]));
+
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<ICategoryService, CategoryService>();
         services.AddScoped<IAddressService, AddressDtoService>();
+
+        services.AddScoped<ICouponService, CouponService>();
+        services.AddScoped<ICartService, CartService>();
 
         return services;
     }

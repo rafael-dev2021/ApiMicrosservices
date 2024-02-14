@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiMicrosservicesAddress")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7e6c6939ec47bcc7f385fe4f74337954749e6f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2904209afa27d6c74a3d58b4b343b86eb035a6ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiMicrosservicesAddress")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiMicrosservicesAddress")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

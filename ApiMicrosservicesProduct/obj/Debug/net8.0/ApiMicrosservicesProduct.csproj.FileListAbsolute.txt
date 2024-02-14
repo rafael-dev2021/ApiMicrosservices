@@ -10,6 +10,7 @@ C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\AutoMapper.Ext
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\Azure.Core.dll
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\Azure.Identity.dll
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\Humanizer.dll
+C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -123,6 +124,7 @@ C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservi
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.csproj.CoreCompileInputs.cache
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.MvcApplicationPartsAssemblyInfo.cs
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.MvcApplicationPartsAssemblyInfo.cache
+C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.sourcelink.json
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\staticwebassets.build.json
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\staticwebassets.development.json
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\staticwebassets\msbuild.ApiMicrosservicesProduct.Microsoft.AspNetCore.StaticWebAssets.props
@@ -137,5 +139,3 @@ C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\refint\ApiMicr
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.pdb
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.genruntimeconfig.cache
 C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ref\ApiMicrosservicesProduct.dll
-C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\obj\Debug\net8.0\ApiMicrosservicesProduct.sourcelink.json
-C:\C#\ApiMicrosservices\ApiMicrosservicesProduct\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

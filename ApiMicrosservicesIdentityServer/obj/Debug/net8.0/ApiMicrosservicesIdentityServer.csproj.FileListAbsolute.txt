@@ -1,5 +1,6 @@
 C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\bin\Debug\net8.0\appsettings.Development.json
 C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\bin\Debug\net8.0\appsettings.json
+C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\bin\Debug\net8.0\keys\is-signing-key-91D90D8AF60334AFD2AA1D4E526885D6.json
 C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\bin\Debug\net8.0\ApiMicrosservicesIdentityServer.staticwebassets.runtime.json
 C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\bin\Debug\net8.0\ApiMicrosservicesIdentityServer.exe
 C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\bin\Debug\net8.0\ApiMicrosservicesIdentityServer.deps.json
@@ -141,4 +142,3 @@ C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\obj\Debug\net8.0\refint\
 C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\obj\Debug\net8.0\ApiMicrosservicesIdentityServer.pdb
 C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\obj\Debug\net8.0\ApiMicrosservicesIdentityServer.genruntimeconfig.cache
 C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\obj\Debug\net8.0\ref\ApiMicrosservicesIdentityServer.dll
-C:\C#\ApiMicrosservices\ApiMicrosservicesIdentityServer\bin\Debug\net8.0\keys\is-signing-key-91D90D8AF60334AFD2AA1D4E526885D6.json

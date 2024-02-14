@@ -1,4 +1,8 @@
 using ApiMicrosservicesWeb.Models;
+using ApiMicrosservicesWeb.Models.MicrosservicesProduct;
+using ApiMicrosservicesWeb.Models.MicrosservicesShoppingCart;
+using ApiMicrosservicesWeb.Services.MicrosservicesProduct.Interfaces;
+using ApiMicrosservicesWeb.Services.MicrosservicesShoppingCart.Interfaces;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,20 +13,78 @@ namespace ApiMicrosservicesWeb.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IProductService _productService;
+        private readonly ICartService _cartService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,
+            IProductService productService,
+            ICartService cartService)
         {
             _logger = logger;
+            _productService = productService;
+            _cartService = cartService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var products = await _productService.GetAllProducts(string.Empty);
+
+            if (products is null)
+            {
+                return View("Error");
+            }
+
+            return View(products);
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult<ProductViewModel>> ProductDetails(int id)
         {
-            return View();
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var product = await _productService.GetByProductIdAsync(id, token);
+
+            if (product is null)
+                return View("Error");
+
+            return View(product);
+        }
+
+        [HttpPost]
+        [ActionName("ProductDetails")]
+        [Authorize]
+        public async Task<ActionResult<ProductViewModel>> ProductDetailsPost
+            (ProductViewModel productVM)
+        {
+            var token = await HttpContext.GetTokenAsync("access_token");
+
+            CartViewModel cart = new()
+            {
+                CartHeader = new CartHeaderViewModel
+                {
+                    UserId = User.Claims.Where(u => u.Type == "sub")?.FirstOrDefault()?.Value
+                }
+            };
+
+            CartItemViewModel cartItem = new()
+            {
+                Quantity = productVM.Quantity,
+                ProductId = productVM.Id,
+                Product = await _productService.GetByProductIdAsync(productVM.Id, token)
+            };
+
+            List<CartItemViewModel> cartItemsVM = new List<CartItemViewModel>();
+            cartItemsVM.Add(cartItem);
+            cart.CartItems = cartItemsVM;
+
+            var result = await _cartService.AddItemToCartAsync(cart, token);
+
+            if (result is not null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(productVM);
         }
 
         [Authorize]

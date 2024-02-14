@@ -48,7 +48,7 @@ public class ProductService : IProductService
     }
 
 
-    public async Task<ProductViewModel> GetByProductIdAsync(int? id, string token)
+    public async Task<ProductViewModel> GetByProductIdAsync(int id, string token)
     {
         var client = _clientFactory.CreateClient("ProductApi");
         PutTokenInHeaderAuthorization(token, client);

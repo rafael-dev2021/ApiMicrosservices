@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h4RFg9fL5v+gpfPrj/HkbaRUPZw0a435hSq/3vgGFCc=",
+  "Hash": "AZtGNrlrotYSiuQfJ7cl49GjZzi1IRj7LVG4mm0N8/E=",
   "Source": "ApiMicrosservicesWeb",
   "BasePath": "_content/ApiMicrosservicesWeb",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApiMicrosservicesWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesWeb\\wwwroot\\css\\product.css",
+      "SourceId": "ApiMicrosservicesWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesWeb\\wwwroot\\",
+      "BasePath": "_content/ApiMicrosservicesWeb",
+      "RelativePath": "css/product.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\product.css"
     },
     {
       "Identity": "C:\\C#\\ApiMicrosservices\\ApiMicrosservicesWeb\\wwwroot\\css\\site.css",

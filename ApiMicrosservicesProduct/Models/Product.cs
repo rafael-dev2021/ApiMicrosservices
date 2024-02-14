@@ -11,6 +11,6 @@ public sealed class Product(int id, string name, List<string> images, string des
     public int Stock { get; private set; } = stock;
 
     [JsonIgnore]
-    public Category? Category { get; private set; }
+    public Category Category { get; private set; }
     public int CategoryId { get; private set; } = categoryId;
 }

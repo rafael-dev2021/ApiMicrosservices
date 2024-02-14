@@ -63,7 +63,7 @@ namespace ApiMicrosservicesWeb.Controllers
 
         [HttpGet]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateProduct(int? id)
+        public async Task<IActionResult> UpdateProduct(int id)
         {
             ViewBag.CategoryId = new SelectList(await
                                _categoryService.GetAllCategories(await GetAccessToken()), "Id", "Name");
@@ -93,7 +93,7 @@ namespace ApiMicrosservicesWeb.Controllers
 
         [HttpGet]
         [Authorize(Roles = "Admin")]
-        public async Task<ActionResult<ProductViewModel>> DeleteProduct(int? id)
+        public async Task<ActionResult<ProductViewModel>> DeleteProduct(int id)
         {
             var result = await _productService.GetByProductIdAsync(id, await GetAccessToken());
 
